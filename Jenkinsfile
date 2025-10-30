@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     REGISTRY = 'docker.io'
-    REPOSITORY = 'your-dockerhub-username/webapp-sample' // replace with your dockerhub username
+    REPOSITORY = 'Kiran-Kumar-20/webapp-sample' // replace with your dockerhub username
     IMAGE_TAG = "${env.BUILD_NUMBER ?: 'local'}"
     IMAGE = "${REGISTRY}/${REPOSITORY}:${IMAGE_TAG}"
   }
