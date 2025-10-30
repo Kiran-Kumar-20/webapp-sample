@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My WebApp</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin: 2rem; }
+    header { margin-bottom: 1.5rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My WebApp</h1>
+    <p>Built with Git → GitHub → Jenkins → Docker</p>
+  </header>
+
+  <main>
+    <p>Build number: <strong id="build">N/A</strong></p>
+    <p>Deployed at: <em id="time">N/A</em></p>
+    <script>
+      document.getElementById('time').textContent = new Date().toISOString();
+    </script>
+  </main>
+</body>
+</html>

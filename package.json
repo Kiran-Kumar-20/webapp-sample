@@ -1,0 +1,10 @@
+{
+  "name": "webapp-sample",
+  "version": "0.0.1",
+  "description": "Minimal package.json to satisfy tooling (not required by Dockerfile)",
+  "scripts": {
+    "test": "echo \"No tests configured\" && exit 0"
+  },
+  "author": "",
+  "license": "MIT"
+}
